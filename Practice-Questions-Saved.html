@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+</head>
+<body>
+    <script>
+        // a ="Ashu"
+        // age= 20
+        // clr="lightblue"
+
+        // document.write(`
+
+        // <h2 style:"color:${clr};"> My Name is = ${a}, My age is = ${age} </h2>
+
+        // `)
+
+
+        //print a table using prompt with eval.........
+
+        // myname = prompt("Enter your name")
+        // document.write(`<h2> Your name is = ${myname} </h2>`)
+        // document.write(typeof(myname))
+
+
+        // value1 = eval(prompt("Enter your first value"))
+        // value2 = eval(prompt("Enter your second value"))
+        // result= value1+value2
+        // document.write(`<h2>Total value is = ${result}<h2/>`)
+
+
+        //         name = "Prakhar Saini"
+        //         rollno = 10
+        //         subject = "Java Script"
+        //         mobile = 6350124457
+        //         document.write(`
+
+        // <table style="margin: 20px auto; border-radius: 4px;" border="3px solid grey" cellspacing="1px" cellpadding="5px" width="80%">
+        //    <tr>
+        //     <th style="background-color:green; color:white; font-size:20px; width:40px;">Name</th>
+        //     <th style="background-color:green; color:white; font-size:20px; width:40px;">Roll No.</th>
+        //     <th style="background-color:green; color:white; font-size:20px; width:40px;">Subject</th>
+        //     <th style="background-color:green; color:white; font-size:20px; width:40px;">Mobile No.</th>
+        //    </tr>
+        //    <tr style="text-align:center; background-color:lightblue; color:black; font-size:15px; width:40px;">
+        //     <td>${name}</td>
+        //     <td>${rollno}</td>
+        //     <td>${subject}</td>
+        //     <td>${mobile}</td>
+        //    </tr>
+        //    <tr style="text-align:center; background-color:lightblue; color:black; font-size:15px; width:40px;">
+        //     <td>${name}</td>
+        //     <td>${rollno}</td>
+        //     <td>${subject}</td>
+        //     <td>${mobile}</td>
+        //    </tr>
+        //    <tr style="text-align:center; background-color:lightblue; color:black; font-size:15px; width:40px;">
+        //     <td>${name}</td>
+        //     <td>${rollno}</td>
+        //     <td>${subject}</td>
+        //     <td>${mobile}</td>
+        //    </tr>
+        // </table>
+        // `)
+
+
+
+        //         length = eval(prompt("enter the lenght of box"))
+        //         breadth = eval(prompt("enter the breadth of box"))
+        //         document.write(`
+        // <div style="background-color: aqua; color: black; height:${breadth}px; width: ${length}px; "><p style="text-align:center; font-size:40px;">I AM THE BOX</P></div>
+        // `)
+        //
+
+
+        //Area of a square.......
+
+        // side1 = eval(prompt("enter first side of square"))
+        // side2 = eval(prompt("enter second side of square"))
+        // area = side1 * side2
+        // document.write(`
+        // <div style="height:400px; width:400px; display:flex; justify-content:center; background-color:lightblue; color:black;"> Area of the square is = ${area}</div>
+        // `)
+
+        //Area of a ractangle......
+
+        // side1 = eval(prompt("enter length of ractangle"))
+        // side2 = eval(prompt("enter breadth of ractangle"))
+        // area = side1 * side2
+        // document.write(`
+        // <h2> Area of the ractangle is = ${area} </h2>
+        // `)
+
+        //Area of a circle........
+
+        // r = eval(prompt("enter the radius of circle"))
+        // area = 3.14*r*r
+        // document.write(`
+        // <h2> Area of the circle is = ${area} </h2>
+
+        // `)
+
+        //Area of a triangle.........
+
+        // h = eval(prompt("enter height of the triangle"))
+        // b = eval(prompt("enter base of the triangle"))
+        // area = 1/2*h*b
+        // document.write(`
+        // <h2> Area of the triangle is = ${area} </h2>
+
+        // `)
+                             
+        //Area of a cylander........
+
+        //  h = eval(prompt("enter height of the cylander"))
+        //  r = eval(prompt("enter radius of the cylander"))
+        //  area = 2*3.14*r*h+2*3.14*r*r
+        //  document.write(`
+        //  <h2> Surface area of the cylander is = ${area} </h2>
+
+        // `)
+
+
+        //Check a number Positive or Negative...........
+
+        // a = eval(prompt("Enter a number"))
+        // a>=0 ? document.write("Number is positive"): document.write("Number is negative")
+
+
+        //Check a number Odd or Even...............
+
+        // a = eval(prompt("Enter a number"))
+        // a%2===0 ? document.write("Number is even"): document.write("Number is odd")
+
+
+        //Check a year leep or not.............
+
+        // a = eval(prompt("Enter a year"))
+        // a%4===0 ? document.write("This year is a leep year."): document.write("This year is not a leep year.")
+
+
+        //check number is equal to.......
+
+        // a= eval(prompt("Enter a number"))
+        // a===9 ? document.write("You won a lottery card."):document.write("Try again , Better luck next time.")
+
+
+        //Check the gender........
+
+        // a= prompt("Enter your gender")
+        // a=="male" ? document.write("Your gender is male"): document.write("Your gender is female")
+
+
+        //Check age valid or invalid for something........
+
+        // a= eval(prompt("Enter your age "))
+        // a>=18? document.write("You are eligible for voter id."):document.write("You are underage for voter id.")
+
+
+        //Check your given shape is which one square or ractangle...........
+
+        // height = eval(prompt("enter height"))
+        // width = eval(prompt("enter width"))
+        // borderadius = eval(prompt("enter border-radius"))
+        // document.write(`<h2>When border-radius is 50% then shape will be a circle otherwise shape is a square or ractangle.<br>`)
+        // height===width ? document.write("This shape is a square."):document.write("This shape is a ractangle. ")
+
+
+        //Check your given shape is circle...........
+
+        // height = eval(prompt("enter height"))
+        // width = eval(prompt("enter width"))
+        // borderadius = eval(prompt("enter border-radius"))
+        // document.write(`<h2>When border-radius is 50% then shape will be a circle otherwise shape is a square or ractangle.<br>`)
+        // height===width && borderadius==50 ? document.write("This shape is a circle."):document.write("This shape is not a circle. ")
+
+
+        //take a shape value from user and match the shape value with the shape image............
+
+        // shape = prompt("enter the shape name...(e.g.- Ractangle,Square,Circle,Triangle)")
+
+        //     shape==="ractangle" ? document.write(`<div style = "height:400px; width:600px; background-color:yellow; border:2px solid black;">`): document.write("")
+        //     shape==="square" ? document.write(`<div style = "height:400px; width:400px;background-color:yellow; border:2px solid black;">`): document.write("")
+        //     shape==="circle" ? document.write(`<div style = "height:400px; width:400px;background-color:yellow; border:2px solid black; border-radius:50%;">`): document.write("")
+        //     shape==="triangle" ? document.write(`<div style = " height:400px; width:400px; background-color:yellow; clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">`): document.write("")
+
+
+        // Conditional statement (if and else)
+
+        // username = prompt("Enter your username....")
+        // password = prompt("Enter your password")
+
+        // if(username === "ashu" && password === "6350124457"){
+        //     document.write("user login successfully")
+        // }
+        // else{
+        //     document.write("user not found")
+        // }
+
+
+        // Marksheet using prompt...........
+
+        // name = prompt("enter your name")
+        //    h = eval(prompt("enter hindi marks"))
+        //    e = eval(prompt("enter english marks"))
+        //    p = eval(prompt("enter physics marks"))
+        //    c = eval(prompt("enter chemistry marks"))
+        //    m = eval(prompt("enter math marks"))
+        //    total = h+e+p+c+m
+        //    average = total/6
+        //    grade = ""
+        //    bg = ""
+        //    if(average>=90){
+        //      grade = "A"
+        //      bg = "green"
+        //    }
+        //    else if(average>=70){
+        //     grade = "B"
+        //     bg = "green"
+        //    }
+        //    else if(average>=50){
+        //     grade = "C"
+        //     bg = "orange"
+        //    }
+        //    else if(average>=33){
+        //     grade = "D"
+        //     bg = "orange"
+        //    }
+        //    else if(average<33){
+        //     grade = "Fail"
+        //     bg = "red"
+        //    }
+        //    else {}
+        //     document.write(`
+        //    <table style="margin: 20px auto; border-radius: 4px;" border="3px solid grey" cellspacing="1px" cellpadding="5px" width="80%">
+        //    <tr>
+        //     <th style="font-size:18px;">Name</th>
+        //     <th style="font-size:18px;">Hindi(out of 100)</th>
+        //     <th style="font-size:18px;">English(out of 100)</th>
+        //     <th style="font-size:18px;">Physics(out of 100)</th>
+        //     <th style="font-size:18px;">Chemistry(out of 100)</th>
+        //     <th style="font-size:18px;">Mathematics(out of 100)</th>
+        //     <th style="font-size:18px;">Total</th>
+        //     <th style="font-size:18px;">average</th>
+        //     <th style="font-size:18px;">Grade</th>
+        //    </tr>
+        //    <tr style="text-align:center; background-color:lightblue; color:black; font-size:15px; width:40px;">
+        //     <td>${name}</td>
+        //     <td>${h}</td>
+        //     <td>${e}</td>
+        //     <td>${p}</td>
+        //     <td>${c}</td>
+        //     <td>${m}</td>
+        //     <td>${total}</td>
+        //     <td>${average}</td>
+        //     <td style = "background-color:${bg};">${grade}</td>
+        //    </tr>
+        // </table>
+        // `)
+        </script>
+
+    
+      <!-- make clickable image using if else and using function............. -->
+
+    <!--  this line is in the body tag <img src="./assets/streetart.jpg" id="image" height="400" width="400" onclick="changeimage()" alt=""> -->
+    <!--       function changeimage() {
+             var img = document.getElementById('image')
+              if(img.src.match("./assets/streetart.jpg")){
+                  img.src = "./assets/streetart2.jpg"
+              }
+              else if (img.src.match("./assets/streetart2.jpg")) {
+                  img.src = "./assets/streetart3.jpg"
+              }
+              else if (img.src.match("./assets/streetart3.jpg")) {
+                  img.src = "./assets/streetart4.jpg"
+              }
+              else{
+                  img.src = "./assets/streetart.jpg"
+              }
+             
+            } -->
+
+
+
+            <!-- second method of make image clickable and change with using javascript..... -->
+
+             <!-- <div class="main-box">
+   <img id="photo" class="container" src="./assets/streetart.jpg" alt="">
+    <div class="btns">
+        <button onclick="Red('./assets/streetart5.jpg')" style="padding: 10px;">Change Image</button>
+        <button onclick="Red('./assets/streetart2.jpg')" style="padding: 10px;">Change Image</button>
+        <button onclick="Red('./assets/streetart3.jpg')" style="padding: 10px;">Change Image</button>
+        <button onclick="Red('./assets/streetart4.jpg')" style="padding: 10px;">Change Image</button>
+    </div>
+   </div>
+   <script>
+    function Red(a){
+        bgcolor = document.getElementById("photo")
+        bgcolor.src = a
+    }
+   </script> -->
+
+
+   
+   <!-- This is third method of change images by click with using arrays in javascript...... -->
+
+   <!-- <div class="container">
+        <div id="main">
+            <img src="./assets/streetart.jpg" alt="" id="mainImage" width="80%" height="400px">
+        </div>
+        <div id="small">
+            <img src="./assets/streetart.jpg" alt="" class="smallimage" width="18%" height="60px">
+            <img src="./assets/streetart2.jpg" alt="" class="smallimage" width="18%" height="60px">
+            <img src="./assets/streetart3.jpg" alt="" class="smallimage" width="18%" height="60px">
+            <img src="./assets/streetart4.jpg" alt="" class="smallimage" width="18%" height="60px">
+            <img src="./assets/streetart5.jpg" alt="" class="smallimage" width="18%" height="60px">
+        </div>
+    </div>
+    <script>
+        mainimage = document.getElementById('mainImage')
+        smallImage = document.getElementsByClassName('smallimage')
+
+        smallImage[0].onclick = function(){
+            mainimage .src = smallImage[0].src
+        }
+        smallImage[1].onclick = function(){
+            mainimage .src = smallImage[1].src
+        }
+        smallImage[2].onclick = function(){
+            mainimage .src = smallImage[2].src
+        }
+        smallImage[3].onclick = function(){
+            mainimage .src = smallImage[3].src
+        }
+        smallImage[4].onclick = function(){
+            mainimage .src = smallImage[4].src
+        }
+
+    </script> -->
+
+
+    <!-- make a login page with data validation and call a function with if else and login with stored value........ -->
+     
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 25%;
+        }
+        h2 {
+            text-align: center;
+        }
+        .input-field {
+            width: 94%;
+            padding: 15px 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .submit-btn {
+            width: 80%;
+            margin: 10px 38px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <input type="text" id="username" class="input-field" placeholder="Username/email" required>
+        <input type="password" id="password" class="input-field" placeholder="Password" required>
+        <input type="date" id="dob" class="input-field" placeholder="D.O.B" required>
+        <input type="number" id="mobilenum" class="input-field" placeholder="Mobile No." required>
+        <p id="errormsg"></p>
+        <button onclick="Login()" type="submit" class="submit-btn" id="submit">Login</button>
+        <div style="font-size: 14px; text-align: center;">Don't have an account? <a style="text-decoration: none;" href="#">Sign up</a></div>
+
+    <script>
+       function Login() {
+            username = document.getElementById("username").value
+            password = document.getElementById("password").value
+            dateofbirth = document.getElementById("dob").value
+            mobiledata = document.getElementById("mobilenum").value
+            errormsg = document.getElementById("errormsg")
+
+            const userslist = [
+                { myusername: 'ashu', mypassword: '12345', mydob: "2000-04-20", mymobile: '1234567890' },
+                { myusername: 'rohan', mypassword: '1234', mydob: "2001-04-20", mymobile: '0123456789' },
+                { myusername: 'aman', mypassword: '123', mydob: "2002-04-20", mymobile: '1234567899' }
+            ]
+
+            finddata = userslist.find((data) => 
+                data.myusername === username && 
+                data.mypassword === password &&
+                data.mydob === dateofbirth && 
+                data.mymobile === mobiledata
+            )
+
+            if (finddata) {
+                alert(`Welcome back ${finddata.myusername}!, You are logged in successfully...`)
+                errormsg.innerHTML = "User logged in successfully!"
+                errormsg.style.color = "green"
+                errormsg.style.fontSize = "12px"
+                errormsg.style.textAlign = "center"
+
+                localStorage.setItem("username", finddata.myusername)
+                localStorage.setItem("password", finddata.mypassword)
+                localStorage.setItem("dob", finddata.mydob)
+                localStorage.setItem("mobile no.", finddata.mymobile)
+
+                setTimeout(() => {
+                    window.location.href = "./image.html"
+                }, 1000) 
+            } else {
+                alert("User not found....")
+                errormsg.innerHTML = "Your filled data is not found, Please fill correct data."
+                errormsg.style.color = "red"
+                errormsg.style.fontSize = "12px"
+                errormsg.style.textAlign = "center"
+            }
+       }    
+    </script> -->
+
+    <!-- create a random bussiness name genrator by combining list of adjectives, shop name, another word and place name ?
+     Adjectives:
+                Crazy
+                Amazing
+                Fire
+                Adarsh
+     Shop name:
+               Engine
+               Foods
+               Garments
+               Private
+     Another word:
+                  Bros
+                  Limited
+                  Hub
+                  Enterprises
+     Place:
+           London
+           Peris
+           America 
+           Japan
+
+     Restriction:-- Don't use arrays! -->
+
+     <!-- <script>
+        //0 0.25 0.50 0.75 1
+
+       let randnum = Math.random()
+       
+       if(randnum < 0.25){
+        first = "Crazy"
+       }
+       else if (randnum >0.25 && randnum<0.5) {
+        first = "Amazing"
+       }
+       else if(randnum>0.5 && randnum<0.75){
+        first = "fire"
+       }
+       else {
+        first = "Adarsh"
+       }
+
+       let randomnum = Math.random()
+       
+       if(randomnum < 0.25){
+        second = "Engine"
+       }
+       else if (randomnum >0.25 && randomnum<0.5) {
+        second = "Foods"
+       }
+       else if(randomnum>0.5 && randomnum<0.75){
+        second = "Private"
+       }
+       else{
+        second = "Garments"
+       }
+
+       let domnum = Math.random()
+       
+       if(domnum < 0.25){
+        third = "Bros"
+       }
+       else if (domnum >0.25 && domnum<0.5) {
+        third = "Limited"
+       }
+       else if(domnum>0.5 && domnum<0.75){
+        third = "Hub"
+       }
+       else{
+        third = "Enterprises"
+       }
+
+       let randomnu = Math.random()
+       
+       if(randomnu < 0.25){
+        fourth = "london"
+       }
+       else if (randomnu >0.25 && randomnu<0.5) {
+        fourth = "Peris"
+       }
+       else if(randomnu>0.5 && randomnu<0.75){
+        fourth = "Amarica"
+       }
+       else{
+        fourth = "Japan"
+       }
+
+
+       console.log(`${first} ${second} ${third} ${fourth}`)
+
+    </script> -->
+
+    
+    <!-- make a navbar with using javascript.... -->
+     <!-- <style>
+        #menu{list-style: none;background-color: black;margin: 10px;padding: 20px;width: 10%;height: 600px;transform: translateX(-210px);transition: all 1.5s ;}
+        #menu li {color: white;margin: 40px;}
+        #close{ display:none;}
+    </style>
+
+    <button onclick="Open()" id="open"><i class="fa-solid fa-bars"></i></button>
+    <button onclick=" Close()" id="close"><i class="fa-solid fa-xmark"></i></button>
+    <script>
+        function Open(){
+            menudata = document.getElementById("menu")
+            openbtn = document.getElementById("open")
+            closebtn = document.getElementById("close")
+            menudata.style.transform = "translateX(10px)"
+            menudata.style.transition = "all 1s"
+            openbtn.style.display = "none"
+            closebtn.style.display = "block"
+        }
+        function Close(){
+            menudata = document.getElementById("menu")
+            openbtn = document.getElementById("open")
+            closebtn = document.getElementById("close")
+            menudata.style.transform = "translateX(-220px)"
+            menudata.style.transition = "all 1s"
+            openbtn.style.display = "block"
+            closebtn.style.display = "none"
+
+        }
+    </script>
+
+    <ul id="menu">
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+    </ul> -->
+
+
+    <!-- make category shower with toggle nav bar and  buttons and button onclick change related items...............-->
+
+     <!-- <style>
+        #menu {
+            list-style: none;
+            background-color: rgb(111, 103, 103);
+            padding: 10px;
+            width: 90%;
+            transform: translateX(-210px);
+            transition: all 1.5s;
+        }
+    
+        #menu li {
+            color: white;
+            margin: 40px;
+        }
+    
+        #close {
+            display: none;
+        }
+        #all, #mens, #womens, #kids{
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            margin: 20px ;
+            padding: 10px;
+            width: 80%;
+        }
+        #mens, #womens, #kids{
+            display: none;
+        }
+        #kidsimage, #menimage, #womenimage{
+            display: flex;
+        }
+    
+    </style>
+    
+    <button onclick="Open()" id="open"><i class="fa-solid fa-bars"></i></button>
+    <button onclick=" Close()" id="close"><i class="fa-solid fa-xmark"></i></button>
+    <button onclick="All()">All</button>
+    <button onclick="Mens()">Men's</button>
+    <button onclick="Womens()">Women's</button>
+    <button onclick="Kids()">Kid's</button>
+
+    <div style="display: flex;">
+        <div>
+            <ul id="menu">
+                <li><button onclick="All()">All</button></li>
+                <li><button onclick="Mens()">Men's</button></li>
+                <li><button onclick="Womens()">Women's</button></li>
+                <li><button onclick="Kids()">Kid's</button></li>
+            </ul>
+        </div>
+
+        <div id="all">
+            <div id="kidsimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-1.jpg" alt=""></div>   
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-2.jpg" alt=""></div>   
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-3.webp" alt=""></div>     
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-4.webp" alt=""></div>     
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-5.avif" alt=""></div>     
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-6.png" alt=""></div>     
+            </div>
+            <div id="menimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/men-1.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/men-2.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-4.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-5.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-6.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-7.webp" alt=""></div>
+            </div>
+            <div id="womenimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-9.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-7.avif" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-8.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-1.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-4.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-6.webp" alt=""></div>
+            </div>
+        </div>
+        <div id="mens">
+            <div id="menimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/men-1.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/men-2.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-4.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-5.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-6.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/men-7.webp" alt=""></div>
+                
+            </div>
+        </div>
+        <div id="womens">
+            <div id="womenimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-9.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-7.avif" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-8.jpg" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-1.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-4.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;"src="./assets/women-6.webp" alt=""></div>
+            </div>
+        </div>
+        <div id="kids">
+            <div id="kidsimage">
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-1.jpg" alt=""></div>   
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-2.jpg" alt=""></div>   
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-3.webp" alt=""></div>
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-4.webp" alt=""></div>     
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-5.avif" alt=""></div>     
+                <div style="height: 200px; width: 200px;"><img style="width: 100%; height: 100%;" src="./assets/kids-6.png" alt=""></div> 
+            </div>
+        </div>
+    </div>
+    <script>
+        function Open() {
+            menudata = document.getElementById("menu")
+            openbtn = document.getElementById("open")
+            closebtn = document.getElementById("close")
+            menudata.style.transform = "translateX(10px)"
+            menudata.style.transition = "all 1s"
+            openbtn.style.display = "none"
+            closebtn.style.display = "block"
+        }
+        function Close() {
+            menudata = document.getElementById("menu")
+            openbtn = document.getElementById("open")
+            closebtn = document.getElementById("close")
+            menudata.style.transform = "translateX(-220px)"
+            menudata.style.transition = "all 1s"
+            openbtn.style.display = "block"
+            closebtn.style.display = "none"
+
+        }
+        function All(){
+            alldata = document.getElementById("all")
+            mendata = document.getElementById("mens")
+            womendata = document.getElementById("womens")
+            kidsdata = document.getElementById("kids")
+            alldata.style.display = "flex"
+            mendata.style.display = "none"
+            kidsdata.style.display  = "none"
+            womendata.style.display  = "none"
+        }
+        function Mens(){
+            alldata = document.getElementById("all")
+            mendata = document.getElementById("mens")
+            womendata = document.getElementById("womens")
+            kidsdata = document.getElementById("kids")
+            alldata.style.display = "none"
+            mendata.style.display = "flex"
+            kidsdata.style.display  = "none"
+            womendata.style.display  = "none"
+        }
+        function Womens(){
+            alldata = document.getElementById("all")
+            mendata = document.getElementById("mens")
+            womendata = document.getElementById("womens")
+            kidsdata = document.getElementById("kids")
+            alldata.style.display = "none"
+            mendata.style.display = "none"
+            womendata.style.display = "flex"
+            kidsdata.style.display  = "none"
+        }
+        function Kids(){
+            alldata = document.getElementById("all")
+            mendata = document.getElementById("mens")
+            womendata = document.getElementById("womens")
+            kidsdata = document.getElementById("kids")
+            alldata.style.display = "none"
+            mendata.style.display = "none"
+            womendata.style.display = "none"
+            kidsdata.style.display  = "flex"
+        }
+    </script> -->
+</body>
+</html>
+
+
+
+
+
+<!-- make a login page or signup page with dom method and use if else and store data in local storage -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <style>
+        *{margin: 0;padding: 0;}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+}
+h2 {
+    text-align: center;
+}
+.input-field {
+    width: 94%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.submit-btn {
+    width: 70%;
+    margin: 20px 55px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+#toggle-login-link:hover, #toggle-signup-link:hover{
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="login-form">
+            <h2>Login</h2>
+            <input type="email" id="username" class="input-field" placeholder="Username/email" required>
+            <input type="password" id="password" class="input-field" placeholder="Password" required>
+            <button onclick="Login()" type="submit" class="submit-btn" id="submit">Login</button>
+            <p style="text-align: center;" id="toggle-signup-text">Don't have an account? <span onclick="Signup()"
+                    style="color: #4CAF50;" id="toggle-signup-link">Signup</span></p>
+        </form>
+
+
+        <form id="signup-form" style="display: none;">
+            <h2>Sign up</h2>
+            <input type="text" id="name" class="input-field" placeholder="Enter Your Full Name " required>
+            <input type="email" id="username" class="input-field" placeholder="Enter Your Email" required>
+            <input type="password" id="password" class="input-field" placeholder=" Enter Password" required>
+            <input type="password" id="Confirm-password" class="input-field" placeholder="Confirm Password" required>
+
+            <button type="submit" class="submit-btn" id="submit-sign">Signup</button>
+            <p style="text-align: center;" id="toggle-login-text">Already have an account? <span onclick="Loginbtn()" style="color: #4CAF50;"
+                    id="toggle-login-link">Login</span></p>
+        </form>
+
+    </div>
+
+    <script>
+        function Login() {
+            username = document.getElementById("username").value
+            password = document.getElementById("password").value
+            submitbtn = document.getElementById("submit")
+            loginform = document.getElementById("login-form")
+            signupform = document.getElementById("signup-form")
+            loginbtn = document.getElementById("toggle-login-link")
+            signupform.style.display = "none"
+            loginform.style.display = "block"
+
+
+            const userslist = [
+                { myusername: 'ashu@gmail.com', mypassword: '12345' },
+                { myusername: 'rohan@gmail.com', mypassword: '1234' },
+                { myusername: 'aman@gmail.com', mypassword: '123' }
+            ]
+
+            finddata = userslist.find((data) =>
+                data.myusername === username &&
+                data.mypassword === password
+            )
+
+            if (finddata) {
+                alert(` You are logged in successfully!...`)
+
+                localStorage.setItem("username", finddata.myusername)
+                localStorage.setItem("password", finddata.mypassword)
+
+            } else {
+                alert("User not found....")
+            }
+        }
+        function Signup() {
+            loginbtn = document.getElementById("toggle-login-link")
+            container = document.getElementById("container")
+            loginform = document.getElementById("login-form")
+            signupform = document.getElementById("signup-form")
+            namedata = document.getElementById("name")
+            username = document.getElementById("username")
+            password = document.getElementById("password")
+            confirmpassword = document.getElementById("confirm")
+            signupdata = document.getElementById("toggle-signup-link")
+            signupform.style.display = "block"
+            loginform.style.display = "none"
+
+            finddata = {myname: name, myusername: username, mypassword: password }
+
+            if (finddata) {
+                localStorage.setItem("username", finddata.myusername)
+                localStorage.setItem("password", finddata.mypassword)
+                localStorage.setItem("name", finddata.myname)
+
+            } else {
+                alert("User not found....")
+            }
+        }   
+        
+        function Loginbtn(){
+            loginbtn = document.getElementById("toggle-login-link")
+            container = document.getElementById("container")
+            loginform = document.getElementById("login-form")
+            signupform = document.getElementById("signup-form")
+            namedata = document.getElementById("name")
+            username = document.getElementById("username")
+            password = document.getElementById("password")
+            confirmpassword = document.getElementById("confirm")
+            signupdata = document.getElementById("toggle-signup-link")
+            signupform.style.display = "none"
+            loginform.style.display = "block"
+
+        }
+    </script>
+
+
+    
+    // Insert data in a table with use of array in javascript.........
+
+    <table id="table" cellspacing="5px" cellpadding="5px" width="40%" border="2px" style="margin: 40px auto; ">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Password</th>
+            <th>Email</th>
+        </tr> 
+    </table>
+    <script>
+        user = [
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"},
+            {Id: 1, name: "Rajkumar", password:"12345", email:"rajkumar@gmail.com"}
+        ]
+
+            for(i=0; i<user.length; i++){  
+                userdata = user[i]
+                tabledata = document.getElementById("table")
+                tabledata.innerHTML += (`<tr>
+                    <td>${userdata.Id}</td>
+                    <td>${userdata.name}</td>
+                    <td>${userdata.password}</td>
+                    <td>${userdata.email}</td>
+                    </tr>`)
+                    }
+        
+    </script>
+
+
+    // Create a  div it stores product data using for loop of javascript.......
+
+    <h1 style="text-align: center;">PRODUCT DETAILS</h1>
+    <div id="table"
+        style="display: flex; flex-wrap: wrap; justify-content: center; padding: 5px; width: 90%; margin: 40px auto; border: 2px solid black;">
+    </div>
+
+
+    <script>
+
+        const products = [
+            { imageurl: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/landing-page/qualcomm-landing-page/laptop-inspiron-in5441nt.png?fmt=png-alpha&wid=2261&hei=1700", name: "Laptop", quantity: 18, price: "$1200", button: "Add To Cart" },
+            { imageurl: "https://5.imimg.com/data5/JL/QW/MY-2974783/computer-laptop-500x500.jpg", name: "Laptop", quantity: 0, price: "$1200", button: "Product is out of stock" },
+            { imageurl: "https://thesun.my/binrepository/1-acer-swift-14-ai_4736899_20241118071112.jpg", name: "Laptop", quantity: 45, price: "$1200", button: "Add To Cart" },
+            { imageurl: "https://www.techtarget.com/rms/onlineimages/hp_elitebook_mobile.jpg", name: "Laptop", quantity: 0, price: "$1200", button: "Product is out of stock" },
+            { imageurl: "https://lntsufin.com/storage/mediafiles/catalog/live/15805-19/original/15805-19_image_0.jpg", name: "Laptop", quantity: 6, price: "$1200", button: "Add To Cart" },
+            { imageurl: "https://cdn.mos.cms.futurecdn.net/Ajc3ezCTN4FGz2vF4LpQn9.jpg", name: "Laptop", quantity: 8, price: "$1200", button: "Add To Cart" },
+            { imageurl: "https://www.alphr.com/wp-content/uploads/2022/03/How-to-Find-the-Model-Number-on-a-Laptop.jpg", name: "Laptop", quantity: 0, price: "$1200", button: "Product is out of stock" },
+            { imageurl: "https://s.yimg.com/uu/api/res/1.2/hdQEXZHUNrcfgGhuF2qOnw--~B/Zmk9c3RyaW07aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/os/creatr-uploaded-images/2024-07/bc9351a0-3ace-11ef-9cf3-e5f7d4d53bb3", name: "Laptop", quantity: 1, price: "$1200", button: "Add To Cart" },
+        ]
+
+
+        for (i = 0; i < products.length; i++) {
+            product = products[i]
+
+            tableitem = document.getElementById("table")
+            tableitem.innerHTML += `<div style="border: 1px solid black; width: 300px; padding: 2px; margin: 8px;">
+        <img width="100%" src="${product.imageurl}" alt="">
+        <h2>${product.name}</h2>
+        <h2> Qty. :${product.quantity}</h2>
+        <h2> Price :${product.price}</h2>
+        <h2><button style=" border:none; padding:5px; color:white; background-color:red">${product.button}</button></h2>
+        </div>`
+
+        }
+
+    </script>
+
+
+    //Change category onclick button and api fatch with async/await functions ..........
+
+       <style>
+        body { font-family: Arial, sans-serif; }
+        h1 {
+            text-align: center;
+        }
+
+        #table {
+            display: flex;
+           justify-content: center;
+            padding: 5px;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1000px;
+            padding: 10px;
+            margin:20px auto;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+    <h1>PRODUCT DETAILS</h1>
+    <div style="display: flex; justify-content: center; align-items: center; margin: 10px ;">
+        <button id="menbtn" onclick="Men()">Men's Category</button>
+        <button id="womenbtn" onclick="Women()">Women's Category</button>
+        <button id="electronicbtn" onclick="Electronic()">Electronics</button>
+        <button id="jawelerybtn" onclick="Jewelery()">Jewelery</button>
+    </div>
+    <div class="table"> 
+        <div class="box">
+            <div id="mensdata" style="display: none;"></div>
+        </div>
+        <div class="box">
+            <div id="womensdata" style="display: none;"></div>
+        </div>
+        <div class="box">
+            <div id="electronic" style="display: none;"></div>
+        </div>
+        <div class="box">
+            <div id="jewelery" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        async function Api() {
+            apiurl = await fetch("https://fakestoreapi.com/products/")
+            apidata = await apiurl.json()
+
+            for (i = 0; i < apidata.length; i++) {
+                items = apidata[i]
+                tableitem = document.createElement("table")
+                mendata = document.getElementById("mensdata")
+                womensdata = document.getElementById("womensdata")
+                electronic = document.getElementById("electronic")
+                jewelery = document.getElementById("jewelery")
+                tableitem.innerHTML += `
+                <h3>${items.id}</h3>
+                <h2 style="width:300px;">${items.title}</h2>
+                <p><img height="200px" width="200px" src="${items.image}"></p>
+                <h3  style="color:red;">Price: ${items.price}$</h3>
+                <h6 style="color:blue;">Rating: ${items.rating.rate}</h6> 
+                <h6 style="color:blue;">Review:(${items.rating.count})</h6>
+                `
+
+                if (items.category === "men's clothing") {
+                    mendata.appendChild(tableitem)
+                   } 
+                   else if (items.category === "women's clothing") {
+                    womensdata.appendChild(tableitem)
+                   } 
+                   else if (items.category === "electronics") {
+                    electronic.appendChild(tableitem)
+                   } 
+                   else if (items.category === "jewelery") {
+                    jewelery.appendChild(tableitem)
+                   }
+
+            }
+        }
+
+        Api()
+        function Men(){
+            allbtn = document.getElementById("allbtn")
+            menbtn = document.getElementById("menbtn")
+            womenbtn = document.getElementById("womenbtn")
+            electronicbtn = document.getElementById("electronicbtn")
+            jewelerybtn = document.getElementById("jewelerybtn")
+            mensdata = document.getElementById("mensdata")
+            womensdata = document.getElementById("womensdata")
+            electronicdata = document.getElementById("electronic")
+            jewelerydata = document.getElementById("jewelery")
+            mensdata.style.display = "flex"
+            womensdata.style.display = "none"
+            electronicdata.style.display = "none"
+            jewelerydata.style.display = "none"
+        }
+        function Women(){
+            allbtn = document.getElementById("allbtn")
+            menbtn = document.getElementById("menbtn")
+            womenbtn = document.getElementById("womenbtn")
+            electronicbtn = document.getElementById("electronicbtn")
+            jewelerybtn = document.getElementById("jewelerybtn")
+            mensdata = document.getElementById("mensdata")
+            womensdata = document.getElementById("womensdata")
+            electronicdata = document.getElementById("electronic")
+            jewelerydata = document.getElementById("jewelery")
+            mensdata.style.display = "none"
+            womensdata.style.display = "flex"
+            electronicdata.style.display = "none"
+            jewelerydata.style.display = "none"
+        }
+        function Electronic(){
+            allbtn = document.getElementById("allbtn")
+            menbtn = document.getElementById("menbtn")
+            womenbtn = document.getElementById("womenbtn")
+            electronicbtn = document.getElementById("electronicbtn")
+            jewelerybtn = document.getElementById("jewelerybtn")
+            mensdata = document.getElementById("mensdata")
+            womensdata = document.getElementById("womensdata")
+            electronicdata = document.getElementById("electronic")
+            jewelerydata = document.getElementById("jewelery")
+            mensdata.style.display = "none"
+            womensdata.style.display = "none"
+            electronicdata.style.display = "flex"
+            jewelerydata.style.display = "none"
+        }
+        function Jewelery(){
+            allbtn = document.getElementById("allbtn")
+            menbtn = document.getElementById("menbtn")
+            womenbtn = document.getElementById("womenbtn")
+            electronicbtn = document.getElementById("electronicbtn")
+            jewelerybtn = document.getElementById("jewelerybtn")
+            mensdata = document.getElementById("mensdata")
+            womensdata = document.getElementById("womensdata")
+            electronicdata = document.getElementById("electronic")
+            jewelerydata = document.getElementById("jewelery")
+            mensdata.style.display = "none"
+            womensdata.style.display = "none"
+            electronicdata.style.display = "none"
+            jewelerydata.style.display = "flex"
+        }
+    
+    </script> 
+
+
+// this is a home page............!
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bungee+Tint&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        * {
+            font-family: "Kanit", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(./back\ image.webp);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .profile-card {
+            background: #ffffff5e;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transform: translateY(-500px);
+            transition: all 0.01s;
+        }
+
+        .profile-card h2 {
+            margin: -10px 10px 40px;
+            color: #ffffff;
+        }
+
+        .profile-card p {
+            color: #ffffff;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .user-header {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #b42b2b, #161676);
+            padding: 10px;
+        }
+
+        .show-profile {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 2px groove #cc2323;
+            font-size: 28px;
+            font-weight: 600;
+            color: #944646;
+            cursor: pointer;
+            text-transform: uppercase;
+
+        }
+
+        #hide {
+            display: none;
+        }
+
+        #outbtn {
+            color: #944646;
+            margin: 0 10px;
+            font-weight: bolder;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 0px 30px;
+            border-radius: 8px;
+            border: none;
+            border-bottom: #854949 3px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="user-header">
+        <button onclick="Show()" class="show-profile" id="show">P</button>
+        <button onclick="Hide()" class="show-profile" id="hide">P</button>
+        <button onclick="Logout()" id="outbtn">Log Out</button>
+    </div>
+    <div class="container">
+        <div class="profile-card" id="profile-card">
+            <h2>Profile</h2>
+            <p id="profile-name"><strong>Name : </strong></p>
+            <p id="profile-mail"><strong> : </strong></p>
+            <p id="profile-pass"><strong>Password : </strong></p>
+        </div>
+    </div>
+
+    <script>
+        function Show() {
+            profilecard = document.getElementById("profile-card")
+            showbtn = document.getElementById("show")
+            hidebtn = document.getElementById("hide")
+            showbtn.style.display = "none"
+            hidebtn.style.display = "block"
+            profilecard.style.transform = "translateY(5px)"
+            profilecard.style.transition = "all 0.01s"
+        }
+        function Hide() {
+            profilecard = document.getElementById("profile-card")
+            showbtn = document.getElementById("show")
+            hidebtn = document.getElementById("hide")
+            showbtn.style.display = "block"
+            hidebtn.style.display = "none"
+            profilecard.style.transform = "translateY(-500px)"
+            profilecard.style.transition = "all 0.01s"
+        }
+
+        async function Userdata() {
+
+            showbtn = document.getElementById("show")
+            hidebtn = document.getElementById("hide")
+            namedata = document.getElementById("profile-name")
+            maildata = document.getElementById("profile-mail")
+            passworddata = document.getElementById("profile-pass")
+
+            const userid = localStorage.getItem("Id")
+            apiurl = await fetch(`http://localhost:3000/users/${userid}`)
+            userdata = await apiurl.json()
+            showbtn.innerHTML = userdata.myname.slice(0, 1)
+            hidebtn.innerHTML = userdata.myname.slice(0, 1)
+            namedata.innerHTML = ` ${userdata.myname}`
+            maildata.innerHTML = ` ${userdata.myusername}`
+            passworddata.innerHTML = ` ${userdata.mypassword}`
+
+        }
+
+        Userdata()
+
+
+        function Logout() {
+            alert("You have successfully loged out...!")
+            localStorage.removeItem("Id")
+            setTimeout(() => {
+                window.location.reload()
+            }, 500)
+        }
+
+
+
+        const userid = localStorage.getItem("Id")
+
+        if (!userid) {
+            window.location.replace("./login.html")
+        }
+
+    </script>
+</body>
+
+</html>
